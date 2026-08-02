@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kristine Servia" />
+    <meta name="keywords" content="collections, index-cards" />
+    <meta
+      name="description"
+      content="The Well is an interactive application where users can read, medidtate on, and memorize Sripture verses."
+    />
+    <title>Gallery 00: The Well</title>
+
+    <link href="./assets/css/index.css" rel="stylesheet" />
+
+    <link
+      href="./assets/images/favicon_lily.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="page">
+    <!-- HEADER BLOCK -->
+    <header class="header">
+      <h1 class="header__title">
+        <a href="" class="header__link">THE WELL</a>
+      </h1>
+
+      <!-- NAV BLOCK -->
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="" class="nav__link">Gallery</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- GALLERY BLOCK -->
+    <main class="gallery__main-content">
+      <section id="home" class="gallery">
+        <h2 class="gallery__title">Verses</h2>
+
+        <div class="gallery__list-wrapper">
+          <ul class="gallery__list">
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+            <li class="gallery__new-card"></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- CARD TEMPLATE SECTION -->
+    <template id="card-template" class="card__list-template">
+      <li class="card">
+        <h3 class="card__data"></h3>
+        <div class="card__row">
+          <button
+            class="card__btn card__btn_type_flip"
+            aria-label="Flip card button"
+            type="button"
+          ></button>
+        </div>
+      </li>
+    </template>
+  </body>
+</html>
