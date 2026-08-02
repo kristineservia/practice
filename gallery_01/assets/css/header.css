@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin: 20px;
+  max-width: 950px;
+}
+
+h1 a {
+  text-decoration: none;
+  margin-top: 50px;
+  color: cadetblue;
+}
+
+.header__title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}

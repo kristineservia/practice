@@ -1,0 +1,34 @@
+.gallery__title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 20px;
+  color: cadetblue;
+}
+
+.gallery__new-card {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: aquamarine;
+}
+
+.gallery__list-wrapper {
+  margin: 20px;
+}
+
+.gallery__list {
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  grid-template-rows: repeat(3, 325px);
+  gap: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.gallery__new-card-image-00 {
+  object-fit: contain;
+}
