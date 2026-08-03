@@ -99,3 +99,15 @@ const floraCards = [
       Western Australia.",
   },
 ];
+
+/**
+ * Retrieves a card object by its ID from the floraCards array.
+ *
+ * @param {string} cardId - The unique identifier of the card to retrieve
+ * @returns {object|undefined} The card object if found, undefined otherwise
+ */
+function getCardByID(cardId) {
+  return floraCards.find((card) => card.id === cardId);
+}
+
+export { floraCards, getCardByID };
