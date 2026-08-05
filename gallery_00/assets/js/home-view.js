@@ -1,3 +1,5 @@
+import { cards } from "./data.js";
+
 export function renderHomeView() {
   const homeView = document.querySelector("#gallery__home-view");
 
