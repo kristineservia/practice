@@ -6,6 +6,12 @@ function router() {
   //the 'window.location.hash' line returns whatever comes after the # symbol on the browser's URL.
   const route = window.location.hash;
 
+  //if the URL doesn't have a "#/section to view", assign it the default of "#/home".
+  if (route === "") {
+    window.location.hash = "#/home";
+    return;
+  }
+
   if (route === "#/home") {
     renderHomeView();
   }
