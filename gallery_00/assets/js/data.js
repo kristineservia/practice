@@ -86,7 +86,7 @@ const cards = [
 /**
  * Retrieves a card object by its ID from the cards array.
  *
- * @param {string} cardId - The unique identifier of the card to retrieve
+ * @param {number} cardId - The unique identifier of the card to retrieve
  * @returns {object|undefined} The card object if found, undefined otherwise
  */
 function getCardByID(cardId) {
