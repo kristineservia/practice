@@ -16,10 +16,10 @@
     <link href="./assets/images/dove.png" rel="icon" type="image/x-icon" />
 
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -29,13 +29,13 @@
       <!-- HEADER BLOCK -->
       <header class="header">
         <h1 class="header__title">
-          <a href="" class="header__link">THE WELL</a>
+          <a href="#/" class="header__link">THE WELL</a>
         </h1>
 
         <!-- NAV BLOCK -->
         <nav class="nav">
           <ul class="nav__links">
-            <li><a href="" class="nav__link">Gallery</a></li>
+            <li><a href="#/" class="nav__link">Gallery</a></li>
             <li><a href="#about" class="nav__link">About</a></li>
           </ul>
         </nav>
@@ -43,12 +43,15 @@
 
       <!-- GALLERY BLOCK -->
       <main id="app" class="gallery__main-content">
-        <section id="gallery__home-view"></section>
+        <section id="gallery__home-view">
+          <h3 class="gallery__title">Verse Memorization</h3>
+          <div class="gallery__cards"></div>
+        </section>
 
         <template id="gallery__card-template">
           <article class="gallery__card">
-            <h2 class="gallery__card-keyword"></h2>
-            <p class="gallery__card-verseLocation"></p>
+            <h3 class="gallery__card-keyword"></h3>
+            <p class="gallery__card-verse-location"></p>
           </article>
         </template>
       </main>
