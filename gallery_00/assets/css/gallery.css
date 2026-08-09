@@ -9,7 +9,7 @@
 
 #gallery__card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 260px);
+  grid-template-columns: repeat(4, 260px);
   justify-content: center;
   /* grid-template-columns: repeat(4, 325px);
   grid-template-rows: repeat(3, 325px); */
