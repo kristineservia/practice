@@ -1,5 +1,10 @@
+body {
+  background-color: aliceblue;
+}
+
 .page {
-  max-width: 1112px;
+  /* max-width: 1112px; */
+  max-width: 1680px;
   margin: 0 auto;
   padding: 0;
 }
