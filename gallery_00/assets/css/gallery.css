@@ -3,13 +3,13 @@
   font-family: "Arial, Helvetica", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  margin: 20px;
+  margin: 20px 20px 60px 20px;
   color: rgb(43, 198, 236);
 }
 
-#gallery__card {
+.gallery__cards {
   display: grid;
-  grid-template-columns: repeat(4, 260px);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   /* grid-template-columns: repeat(4, 325px);
   grid-template-rows: repeat(3, 325px); */
