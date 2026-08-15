@@ -29,6 +29,7 @@
 
 /* INDIVIDUAL CARD STYLES */
 .gallery__card {
+  position: relative;
   width: 275px;
   height: 255px;
   border-radius: 17px;
@@ -55,4 +56,10 @@
   font-size: 18px;
   margin: 20px;
   color: rgb(110, 190, 201);
+}
+
+.gallery__card-flip-btn {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
 }
