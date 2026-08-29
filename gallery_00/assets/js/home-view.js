@@ -30,6 +30,11 @@ export function renderHomeView() {
     referenceEl.textContent = card.verseLocation;
     verseEl.textContent = card.verse;
 
+    //Flip Button Functionality -STEP 7
+    flipButton.addEventListener("click", () => {
+      cardEl.classList.toggle("gallery__card_flipped");
+    });
+
     //Add each card to the cardContainer to display on the Webpage -STEP 7
     cardsContainer.append(cardEl);
   });
