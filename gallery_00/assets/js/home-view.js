@@ -31,10 +31,7 @@ export function renderHomeView() {
     verseEl.textContent = card.verse;
 
     //Flip Button Functionality -STEP 7
-
-    flipButton.addEventListener("click", () => {
-      cardEl.classList.toggle("gallery__card_flipped");
-    });
+    flipButtons.forEach((button) => {});
 
     //Add each card to the cardContainer to display on the Webpage -STEP 8
     cardsContainer.append(cardEl);
