@@ -32,7 +32,9 @@ export function renderHomeView() {
 
     //Flip Button Functionality -STEP 7
     flipButtons.forEach((button) => {
-      button.addEventListener("click", () => {});
+      button.addEventListener("click", () => {
+        cardEl.classList.toggle("gallery__card_flipped");
+      });
     });
 
     //Add each card to the cardContainer to display on the Webpage -STEP 8
