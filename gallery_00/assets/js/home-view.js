@@ -19,6 +19,7 @@ export function renderHomeView() {
     //Find the elements inside the cloned cardEl to display on each card -STEP 5
     const keywordEl = cardEl.querySelector(".gallery__card-keyword");
     const referenceEl = cardEl.querySelector(".gallery__card-verse-location");
+    const verseEl = cardEl.querySelector(".gallery__card-verse");
 
     //Give these elements values -STEP 6
     keywordEl.textContent = card.word;
