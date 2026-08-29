@@ -23,6 +23,7 @@ export function renderHomeView() {
     const keywordEl = cardEl.querySelector(".gallery__card-keyword");
     const referenceEl = cardEl.querySelector(".gallery__card-verse-location");
     const verseEl = cardEl.querySelector(".gallery__card-verse");
+    const flipButton = cardEl.querySelector(".gallery__card-flip-btn");
 
     //Give these elements values -STEP 6
     keywordEl.textContent = card.word;
