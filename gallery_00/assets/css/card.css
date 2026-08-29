@@ -7,9 +7,7 @@
 }
 
 .card__front {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding: 2rem 1.5rem; */
 }
