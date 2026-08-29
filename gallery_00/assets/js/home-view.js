@@ -31,7 +31,9 @@ export function renderHomeView() {
     verseEl.textContent = card.verse;
 
     //Flip Button Functionality -STEP 7
-    flipButtons.forEach((button) => {});
+    flipButtons.forEach((button) => {
+      button.addEventListener("click", () => {});
+    });
 
     //Add each card to the cardContainer to display on the Webpage -STEP 8
     cardsContainer.append(cardEl);
