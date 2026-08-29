@@ -23,7 +23,7 @@ export function renderHomeView() {
     const keywordEl = cardEl.querySelector(".gallery__card-keyword");
     const referenceEl = cardEl.querySelector(".gallery__card-verse-location");
     const verseEl = cardEl.querySelector(".gallery__card-verse");
-    const flipButton = cardEl.querySelector(".gallery__card-flip-btn");
+    const flipButtons = cardEl.querySelectorAll(".gallery__card-flip-btn");
 
     //Give these elements values -STEP 6
     keywordEl.textContent = card.word;
@@ -31,6 +31,7 @@ export function renderHomeView() {
     verseEl.textContent = card.verse;
 
     //Flip Button Functionality -STEP 7
+
     flipButton.addEventListener("click", () => {
       cardEl.classList.toggle("gallery__card_flipped");
     });
