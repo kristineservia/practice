@@ -24,6 +24,7 @@ export function renderHomeView() {
     //Give these elements values -STEP 6
     keywordEl.textContent = card.word;
     referenceEl.textContent = card.verseLocation;
+    verseEl.textContent = card.verse;
 
     //Add each card to the cardContainer to display on the Webpage -STEP 7
     cardsContainer.append(cardEl);
