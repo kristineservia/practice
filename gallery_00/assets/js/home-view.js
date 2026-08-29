@@ -35,7 +35,7 @@ export function renderHomeView() {
       cardEl.classList.toggle("gallery__card_flipped");
     });
 
-    //Add each card to the cardContainer to display on the Webpage -STEP 7
+    //Add each card to the cardContainer to display on the Webpage -STEP 8
     cardsContainer.append(cardEl);
   });
 }
