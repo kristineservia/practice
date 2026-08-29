@@ -1,3 +1,8 @@
+.card__front,
+.card__back {
+  position: absolute;
+}
+
 .card__front {
   height: 100%;
   display: flex;
