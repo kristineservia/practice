@@ -68,3 +68,12 @@
   bottom: 16px;
   fill: #6ebec9;
 }
+
+.gallery__card-verse {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  margin: 20px;
+}
