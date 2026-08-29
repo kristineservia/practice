@@ -9,6 +9,9 @@ export function renderHomeView() {
   //Target the container where all the cards are added into -STEP 2
   const cardsContainer = document.querySelector(".gallery__cards");
 
+  //Clear any previously rendered cards (no duplicate card sets upon refresh)
+  cardsContainer.innerHTML = "";
+
   //Add a forEach Loop to the cards object to create and display multiple cards -STEP 3
   cards.forEach((card) => {
     //Assign a variable to the template content, and CLONE IT to make a "REAL HTML ELEMENT" -STEP 4
