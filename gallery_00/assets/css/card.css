@@ -11,3 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.card__back {
+  transform: rotateY(180deg);
+}
