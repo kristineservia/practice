@@ -14,7 +14,7 @@
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   column-gap: 16px;
-  row-gap: 24px;
+  row-gap: 16px;
   width: 100%;
 
   /* grid-template-columns: repeat(4, 325px);
