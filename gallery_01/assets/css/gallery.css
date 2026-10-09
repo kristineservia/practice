@@ -16,11 +16,11 @@
   margin: 20px;
 }
 
-.gallery__list {
+.gallery__list-container {
   display: grid;
-  grid-template-columns: repeat(4, 225px);
-  grid-template-rows: repeat(3, 325px);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr) 4fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
   box-sizing: border-box;
   overflow: hidden;
   min-width: 0;
