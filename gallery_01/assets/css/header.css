@@ -3,9 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  text-decoration: none;
   margin: 10px 20px 0px 20px;
-  max-width: 950px;
+  max-width: 1200px;
 }
 
 h1 a {
