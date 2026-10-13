@@ -1,3 +1,7 @@
+.footer {
+  padding-inline: 20px;
+}
+
 .footer__text {
   margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
