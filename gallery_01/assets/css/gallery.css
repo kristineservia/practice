@@ -1,3 +1,7 @@
+.gallery__main-content {
+  flex: 1;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
