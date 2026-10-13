@@ -49,6 +49,8 @@ svg {
 .page {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  overflow: hidden;
   margin: 0px;
   padding: 0px;
 }
