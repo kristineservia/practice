@@ -25,3 +25,9 @@ Work in Progress!
 Current focus: refining the desktop gallery layout, image sizing, and viewport alignment.
 
 Forthcoming: interactive thumbnail selection, responsive layouts, and additional gallery functionality.
+
+## Gallery 01 Previews
+
+![Florae Gallery - Part 1](./assets/images/screenshots/florae-part1.png)
+
+_Gallery 01 - Initial desktop layout featuring twelve botanical illustrations and a featured image._
