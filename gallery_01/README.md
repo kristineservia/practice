@@ -1,6 +1,6 @@
 # FLORAE
 
-## Gallery 01 -- Botanical Illustrations
+## Botanical Illustrations
 
 Florae is an interactive botanical illustration gallery featuring artwork by Ferdinand Bauer from 'Illustrations of the Flora of New Holland'.
 
