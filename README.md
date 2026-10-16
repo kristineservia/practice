@@ -1,4 +1,4 @@
-# Practice -- Web Development Gallery
+# Web Development | Practice Projects
 
 ## Gallery 00: The Well
 
