@@ -28,7 +28,36 @@ The application displays a collection of 12 interactice cards, each featuring a 
 
 ![The Well App Home Page](./assets/images/screenshots/homePage-1.png)
 
-#### Card Interaction
+#### Card Interactions
 
 ![The Well App Card Interactions 1](./assets/images/screenshots/homePage-2.png)
 ![The Well App Card Interactions 2](./assets/images/screenshots/homePage-3.png)
+
+## Development Notes
+
+This project is an ongoing exercise in front-end development, with particular attention to:
+
+- Building layouts with CSS Grid
+- Centering and aligning page containers
+- Managing viewport height and eliminating unnecessary scrolling
+- Refining card dimensions, typography, and spacing
+- Creating interactive components with JavaScript
+- Practicing client-side navigation
+
+Recent layout improvements include reducing card dimensions, adjusting typography, and refining header spacing to fit the entire 12-card gallery within the desktop viewport.
+
+## Future Development
+
+Planned features include:
+
+- A form for creating personalized sets of 12 scripture cards
+- Custom card color selection
+- Gallery page for viewing previous sets
+- Navigation between saved collections
+
+## Project Status
+
+**Work in progress -- experimental front-end application**
+
+The Well is also maintained as a standalone project in its own GitHub repository.
+All forthcoming features will be implemented in The Well's independent repository.
