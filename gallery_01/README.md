@@ -28,6 +28,6 @@ Forthcoming: interactive thumbnail selection, responsive layouts, and additional
 
 ## Gallery 01 Previews
 
-![Florae Gallery - Part 1](./assets/images/screenshots/florae-part1.png)
+![Florae Gallery - Part 1](./assets/images/screenshots/florae-part1-updated.png)
 
 _Gallery 01 - Initial desktop layout featuring twelve botanical illustrations and a featured image._
