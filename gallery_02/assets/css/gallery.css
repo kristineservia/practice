@@ -1,3 +1,10 @@
+.wild__main-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin: 20px;
+}
+
 .wild__featured-button {
   width: 700px;
   height: 700px;
