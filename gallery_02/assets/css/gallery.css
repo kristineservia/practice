@@ -2,8 +2,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  justify-content: center;
-  margin: 20px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 .wild__featured-button {
