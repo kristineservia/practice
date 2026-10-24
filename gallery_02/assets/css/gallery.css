@@ -33,27 +33,7 @@
   cursor: pointer;
 }
 
-.wild__thumbnail-left1,
-.wild__thumbnail-left2,
-.wild__thumbnail-left3 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.wild__thumbnail-right4,
-.wild__thumbnail-right5,
-.wild__thumbnail-right6 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.wild__thumbnail-bottom7,
-.wild__thumbnail-bottom8,
-.wild__thumbnail-bottom9 {
+.wild__thumbnail-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
