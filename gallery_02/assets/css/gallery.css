@@ -44,3 +44,8 @@
   object-fit: cover;
   display: block;
 }
+
+.wild__thumb-left1 {
+  grid-column: 1;
+  grid-row: 1;
+}
