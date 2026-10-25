@@ -1,6 +1,6 @@
 .wild__main-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px 500px 200px;
   grid-template-rows: repeat(3, auto);
 
   width: 100%;
@@ -16,6 +16,9 @@
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
+
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .wild__featured-photo {
