@@ -6,6 +6,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 20px auto;
+  justify-content: center;
 }
 
 .wild__featured-button {
