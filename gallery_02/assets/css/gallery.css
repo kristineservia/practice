@@ -55,3 +55,10 @@
   grid-row: 1;
   align-self: center;
 }
+
+.wild___thumb-bottomSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
