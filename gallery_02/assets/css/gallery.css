@@ -36,6 +36,7 @@
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .wild__thumbnail-photo {
