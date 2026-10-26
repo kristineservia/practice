@@ -10,8 +10,8 @@
 }
 
 .wild__featured-button {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   padding: 0;
   border: none;
   border-radius: 50%;
@@ -30,8 +30,8 @@
 }
 
 .wild__thumbnail-button {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   padding: 0;
   border: none;
   border-radius: 50%;
