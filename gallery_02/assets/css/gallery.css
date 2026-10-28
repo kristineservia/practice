@@ -48,18 +48,9 @@
   display: block;
 }
 
-/* .wild__thumb-left1 {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.wild__thumb-left2 {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: center;
-} */
-
 .wild__thumb-leftSide {
+  grid-column: 1;
+  grid-row: 1;
   justify-self: center;
 }
 
