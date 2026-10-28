@@ -48,7 +48,7 @@
   display: block;
 }
 
-.wild__thumb-left1 {
+/* .wild__thumb-left1 {
   grid-column: 1;
   grid-row: 1;
 }
@@ -57,7 +57,7 @@
   grid-column: 1;
   grid-row: 1;
   align-self: center;
-}
+} */
 
 .wild__thumb-leftSide {
   justify-self: center;
@@ -75,5 +75,6 @@
 }
 
 .wild__thumb-rightSide {
+  grid-column: 3;
   justify-self: center;
 }
