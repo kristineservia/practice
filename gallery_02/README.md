@@ -58,6 +58,10 @@ This project is an opportunity to practice:
 
 - Creating interactive image galleries with JavaScript
 
+## Screenshots
+
+![Wildflowers App Layout Version 1](./assets/images/screenshots/layout-version-1.png)
+
 ## Project Status
 
 **Work in progress** — Currently refining the gallery layout and preparing for JavaScript interactivity.
