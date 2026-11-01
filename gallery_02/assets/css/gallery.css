@@ -8,6 +8,7 @@
   margin: 20px auto;
   justify-content: center;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .wild__featured-button {
