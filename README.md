@@ -10,4 +10,4 @@
 
 ## Gallery 02: Wildflowers
 
-[![Wildflowers -- Home Gallery](./gallery_02/assets/images/screenshots/layout-version-1.png)](./gallery_02/)
+[![Wildflowers -- Home Gallery](./gallery_02/assets/images/screenshots/currentLayout.png)](./gallery_02/)
