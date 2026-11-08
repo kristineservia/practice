@@ -60,7 +60,7 @@ This project is an opportunity to practice:
 
 ## Screenshots
 
-![Wildflowers App Layout Version 1](./assets/images/screenshots/layout-version-1.png)
+![Wildflowers App Layout Version 1](./assets/images/screenshots/currentLayout.png)
 
 ## Project Status
 
